@@ -2,96 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Zepto</title>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio.</a>
-        <nav class="navbar">
-            <a href="#home" style="--i:1;" class="active">Home</a>
-            <a href="#about" style="--i:2;">About</a>
-            <a href="#skills" style="--i:3;">Skills</a>
-            <a href="#projects" style="--i:4;">Projects</a>
-            <a href="#resume" style="--i:5;">Resume</a>
-            <a href="#contact" style="--i:6;">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="home" class="home">
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>Zep<b>to</b></h1></div>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Groceries</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+            <div>
+                <input class="signin" type="submit" value="Sign In" name="sign In">
+                <input class="signup" type="submit" value="Create Account" name="sign up">
+            </div>
         </div>
-        <div class="home-content">
-            <h1>Hi, I'm Bhargavi</h1>
-            <h3>Full Stack Developer </h3>
-            <p>Full-stack developers design and create websites and applications for various platforms. A full-stack developer’s  Develop and maintain web services and interfaces ,Contribute to front-end and back-end development processes, Build new product features or APIs,Perform tests, troubleshoot software....</p>
-            <a href="#" class="btn">Hire Me</a>
+    </section>
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>Order your Daily<br>needs from us!</h2>
+                    <p>Your one stop Destination is here,<br>
+                    awaiting to deliver your orders in a short time!</p>
+                </div>
+                <button>Show more</button>
+            </div>
+            <div class="content-right">
+                <img src="https://www.apto.digital/wp-content/uploads/2022/12/Zepto-logo.png" alt="Zepto">
+            </div>
         </div>
-        <div class="home-img">
-            <div class="glowing-circle">
-                <span></span>
-                <span></span>
-                <div class="image">
-                    <img src="https://i.pinimg.com/564x/07/e4/2c/07e42ce59fc099736d30b9d660acf7ef.jpg" alt="">
+    </section>
+    <section class="category">
+        <div class="list-items">
+            <h3>All about Zepto</h3>
+            <div class="card-list">
+                <div class="card">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/256604533/display_1500/stock-photo-illustration-letter-g-composed-of-different-fruits-with-leaves-256604533.jpg"Fruits">
+                    <div class="food-title">
+                        <h1>Fruits </h1>
+                    </div>
+                    <div class="desc-food">
+                        <p> Get juicy and fresh fruits from us at reasonable prices!</p>
+                    </div>
+                    <div class="price">
+                        <span>$20.00- $50.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://as1.ftcdn.net/v2/jpg/08/35/22/00/1000_F_835220084_7EcBjRHFLCPUivZ0U2S9MhjhPwhYzvQZ.jpg" alt="Veggies">
+                    <div class="food-title">
+                        <h1>Vegetables</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Fresh vegetables from natural farms, Everything available only for our Zepto Family.</p>
+                    </div>
+                    <div class="price">
+                        <span>$15.00-$75.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://c7.alamy.com/comp/2M2NBM5/typical-indian-dish-thali-vegetarian-dishes-on-one-large-round-plate-indian-food-sambar-appam-semolina-halwa-upma-served-over-banana-leaves-2M2NBM5.jpg" alt="Food">
+                    <div class="food-title">
+                        <h1>Food</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Delicious Food from Every Corner of your city, waiting for you to order and satisfy your cravings!</p>
+                    </div>
+                    <div class="price">
+                        <span>$25.00-$89.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/ANDROID/Default/2024/2/384670026/EM/MB/XB/13080895/product-jpeg-1000x1000.jpg" alt="Groceries">
+                    <div class="food-title">
+                        <h1>Groceries</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>All your needed Groceries available for you, with zero delivery charges on your big order </p>
+                    </div>
+                    <div class="price">
+                        <span>$19.00-$121.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <img src="https://i.pinimg.com/564x/07/e4/2c/07e42ce59fc099736d30b9d660acf7ef.jpggg" alt="Your Image">
-        <p>Hi, I'm Bhargavi, a passionate Fullstack Developer with expertise in building efficient and scalable server-side applications. I love coding and am always keen to learn new technologies.</p>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>PowerBi</li>
-            <li>Ms Excel(Advanced)</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Generative AI</li>
-        </ul>
-    </section>
-
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Chatbot</h3>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.67POgPG_cHr19yUPjIRGsAHaEJ&pid=Api&P=0&h=180" alt="Project Image">
-            <p>Project description goes here...
-                A chatbot is a type of conversational AI businesses can use to automate customer interactions in a friendly and familiar way.
-                
-            </p>
-        </div>
-        <div class="project">
-            <h3>Powerbi </h3>
-            <img src="https://tse3.mm.bing.net/th?id=OIP.srbJiohYUc5REuBfJmF8cAHaEL&pid=Api&P=0&h=180" alt="Project Image">
-            <p>Project description goes here...
-                Microsoft Power BI is an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence.[2] It is part of the Microsoft Power Platform. Power BI is a collection of software services, apps, and connectors that work together to turn various sources of data into static and interactive data visualizations.
-            </p>
-        </div>
-    </section>
-
-    <section id="resume" class="resume">
-        <h2>Resume</h2>
-        <a href="resume.pdf" class="btn" download>Download Resume</a>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Email: bhargavisurampudi1@gmail.com@gmail.com</p>
-        <p>Phone:8328539393</p>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 Bhargavi's Portfolio. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
